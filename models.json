@@ -1,4 +1,4 @@
-
+{
   "models": {
     "mode": "merge",
     "providers": {
@@ -8,6 +8,495 @@
         "apiKey": "",
         "api": "openai-completions",
         "models": [
+          {
+            "id": "hunyuan-pro",
+            "name": "hunyuan-pro",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 32768,
+            "maxTokens": 8192
+          },
+          {
+            "id": "hunyuan-vision",
+            "name": "hunyuan-vision",
+            "reasoning": false,
+            "input": [
+              "text",
+              "image"
+            ],
+            "contextWindow": 32768,
+            "maxTokens": 8192
+          },
+          {
+            "id": "hunyuan-lite",
+            "name": "hunyuan-lite",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 8192,
+            "maxTokens": 8192
+          },
+          {
+            "id": "hunyuan-standard-256k",
+            "name": "hunyuan-standard-256k",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 262144,
+            "maxTokens": 8192
+          },
+          {
+            "id": "hunyuan-standard",
+            "name": "hunyuan-standard",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 32768,
+            "maxTokens": 8192
+          },
+          {
+            "id": "hunyuan-standard-32K",
+            "name": "hunyuan-standard-32K",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 32768,
+            "maxTokens": 8192
+          },
+          {
+            "id": "hunyuan-role",
+            "name": "hunyuan-role",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 32768,
+            "maxTokens": 8192
+          },
+          {
+            "id": "hunyuan-code",
+            "name": "hunyuan-code",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 32768,
+            "maxTokens": 8192
+          },
+          {
+            "id": "hunyuan-functioncall",
+            "name": "hunyuan-functioncall",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 32768,
+            "maxTokens": 8192
+          },
+          {
+            "id": "hunyuan-turbo-vision",
+            "name": "hunyuan-turbo-vision",
+            "reasoning": false,
+            "input": [
+              "text",
+              "image"
+            ],
+            "contextWindow": 32768,
+            "maxTokens": 8192
+          },
+          {
+            "id": "hunyuan-turbo-latest",
+            "name": "hunyuan-turbo-latest",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 32768,
+            "maxTokens": 8192
+          },
+          {
+            "id": "hunyuan-turbo",
+            "name": "hunyuan-turbo",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 32768,
+            "maxTokens": 8192
+          },
+          {
+            "id": "hunyuan-large",
+            "name": "hunyuan-large",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 32768,
+            "maxTokens": 8192
+          },
+          {
+            "id": "hunyuan-large-longcontext",
+            "name": "hunyuan-large-longcontext",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 8192
+          },
+          {
+            "id": "hunyuan-turbos-20250226",
+            "name": "hunyuan-turbos-20250226",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 32768,
+            "maxTokens": 8192
+          },
+          {
+            "id": "hunyuan-turbos-latest",
+            "name": "hunyuan-turbos-latest",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 32768,
+            "maxTokens": 8192
+          },
+          {
+            "id": "hunyuan-turbos-20250313",
+            "name": "hunyuan-turbos-20250313",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 32768,
+            "maxTokens": 8192
+          },
+          {
+            "id": "hunyuan-t1-20250321",
+            "name": "hunyuan-t1-20250321",
+            "reasoning": true,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 32768,
+            "maxTokens": 16384
+          },
+          {
+            "id": "hunyuan-t1-latest",
+            "name": "hunyuan-t1-latest",
+            "reasoning": true,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 32768,
+            "maxTokens": 16384
+          },
+          {
+            "id": "hunyuan-t1-vision",
+            "name": "hunyuan-t1-vision",
+            "reasoning": true,
+            "input": [
+              "text",
+              "image"
+            ],
+            "contextWindow": 32768,
+            "maxTokens": 16384
+          },
+          {
+            "id": "hunyuan-turbos-20250515",
+            "name": "hunyuan-turbos-20250515",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 32768,
+            "maxTokens": 8192
+          },
+          {
+            "id": "hunyuan-large-vision",
+            "name": "hunyuan-large-vision",
+            "reasoning": false,
+            "input": [
+              "text",
+              "image"
+            ],
+            "contextWindow": 32768,
+            "maxTokens": 8192
+          },
+          {
+            "id": "hunyuan-turbos-20250604",
+            "name": "hunyuan-turbos-20250604",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 32768,
+            "maxTokens": 8192
+          },
+          {
+            "id": "hunyuan-t1-20250529",
+            "name": "hunyuan-t1-20250529",
+            "reasoning": true,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 32768,
+            "maxTokens": 16384
+          },
+          {
+            "id": "hunyuan-turbos-vision-20250619",
+            "name": "hunyuan-turbos-vision-20250619",
+            "reasoning": false,
+            "input": [
+              "text",
+              "image"
+            ],
+            "contextWindow": 32768,
+            "maxTokens": 8192
+          },
+          {
+            "id": "hunyuan-t1-vision-20250619",
+            "name": "hunyuan-t1-vision-20250619",
+            "reasoning": true,
+            "input": [
+              "text",
+              "image"
+            ],
+            "contextWindow": 32768,
+            "maxTokens": 16384
+          },
+          {
+            "id": "hunyuan-a13b",
+            "name": "hunyuan-a13b",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 32768,
+            "maxTokens": 8192
+          },
+          {
+            "id": "hunyuan-t1-20250711",
+            "name": "hunyuan-t1-20250711",
+            "reasoning": true,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 32768,
+            "maxTokens": 16384
+          },
+          {
+            "id": "hunyuan-turbos-20250716",
+            "name": "hunyuan-turbos-20250716",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 32768,
+            "maxTokens": 8192
+          },
+          {
+            "id": "hunyuan-vision-7b-20250720",
+            "name": "hunyuan-vision-7b-20250720",
+            "reasoning": false,
+            "input": [
+              "text",
+              "image"
+            ],
+            "contextWindow": 32768,
+            "maxTokens": 8192
+          },
+          {
+            "id": "hunyuan-large-role-20250822",
+            "name": "hunyuan-large-role-20250822",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 32768,
+            "maxTokens": 8192
+          },
+          {
+            "id": "hunyuan-t1-20250822",
+            "name": "hunyuan-t1-20250822",
+            "reasoning": true,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 32768,
+            "maxTokens": 16384
+          },
+          {
+            "id": "hunyuan-t1-vision-20250916",
+            "name": "hunyuan-t1-vision-20250916",
+            "reasoning": true,
+            "input": [
+              "text",
+              "image"
+            ],
+            "contextWindow": 32768,
+            "maxTokens": 16384
+          },
+          {
+            "id": "hunyuan-turbos-20250926",
+            "name": "hunyuan-turbos-20250926",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 32768,
+            "maxTokens": 8192
+          },
+          {
+            "id": "hunyuan-large-role-latest",
+            "name": "hunyuan-large-role-latest",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 32768,
+            "maxTokens": 8192
+          },
+          {
+            "id": "hunyuan-turbos-role-20251114",
+            "name": "hunyuan-turbos-role-20251114",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 32768,
+            "maxTokens": 8192
+          },
+          {
+            "id": "hunyuan-2.0-instruct-20251111",
+            "name": "hunyuan-2.0-instruct-20251111",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 32768,
+            "maxTokens": 8192
+          },
+          {
+            "id": "hunyuan-2.0-thinking-20251109",
+            "name": "hunyuan-2.0-thinking-20251109",
+            "reasoning": true,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 32768,
+            "maxTokens": 16384
+          },
+          {
+            "id": "hunyuan-role-latest",
+            "name": "hunyuan-role-latest",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 32768,
+            "maxTokens": 8192
+          },
+          {
+            "id": "hunyuan-vision-1.5-instruct",
+            "name": "hunyuan-vision-1.5-instruct",
+            "reasoning": false,
+            "input": [
+              "text",
+              "image"
+            ],
+            "contextWindow": 32768,
+            "maxTokens": 8192
+          }
+        ]
+      },
+      // 腾讯云 Coding Plan
+      "hunyuan-plan": {
+        "baseUrl": "https://api.lkeap.cloud.tencent.com/plan/v3",
+        "apiKey": "",
+        "api": "openai-completions",
+        "models": [
+          {
+            "id": "tc-code-latest",
+            "name": "Auto",
+            "reasoning": false,
+            "input": ["text"],
+            "cost": { "input": 0, "output": 0, "cacheRead": 0, "cacheWrite": 0 },
+            "contextWindow": 196608,
+            "maxTokens": 32768
+          },
+          {
+            "id": "hunyuan-2.0-instruct",
+            "name": "Tencent HY 2.0 Instruct",
+            "reasoning": false,
+            "input": ["text"],
+            "cost": { "input": 0, "output": 0, "cacheRead": 0, "cacheWrite": 0 },
+            "contextWindow": 128000,
+            "maxTokens": 16000
+          },
+          {
+            "id": "hunyuan-2.0-thinking",
+            "name": "Tencent HY 2.0 Think",
+            "reasoning": false,
+            "input": ["text"],
+            "cost": { "input": 0, "output": 0, "cacheRead": 0, "cacheWrite": 0 },
+            "contextWindow": 128000,
+            "maxTokens": 32000
+          },
+          {
+            "id": "hunyuan-t1",
+            "name": "Hunyuan-T1",
+            "reasoning": false,
+            "input": ["text"],
+            "cost": { "input": 0, "output": 0, "cacheRead": 0, "cacheWrite": 0 },
+            "contextWindow": 64000,
+            "maxTokens": 32000
+          },
+          {
+            "id": "hunyuan-turbos",
+            "name": "hunyuan-turbos",
+            "reasoning": false,
+            "input": ["text"],
+            "cost": { "input": 0, "output": 0, "cacheRead": 0, "cacheWrite": 0 },
+            "contextWindow": 32000,
+            "maxTokens": 16000
+          },
+          {
+            "id": "minimax-m2.5",
+            "name": "MiniMax-M2.5",
+            "reasoning": false,
+            "input": ["text"],
+            "cost": { "input": 0, "output": 0, "cacheRead": 0, "cacheWrite": 0 },
+            "contextWindow": 196608,
+            "maxTokens": 32768
+          },
+          {
+            "id": "kimi-k2.5",
+            "name": "Kimi-K2.5",
+            "reasoning": false,
+            "input": ["text"],
+            "cost": { "input": 0, "output": 0, "cacheRead": 0, "cacheWrite": 0 },
+            "contextWindow": 262144,
+            "maxTokens": 32768
+          },
+          {
+            "id": "glm-5",
+            "name": "GLM-5",
+            "reasoning": false,
+            "input": ["text"],
+            "cost": { "input": 0, "output": 0, "cacheRead": 0, "cacheWrite": 0 },
+            "contextWindow": 202752,
+            "maxTokens": 16384
+          }
         ]
       },
       //火山引擎（豆包）
@@ -16,30 +505,3321 @@
         "apiKey": "",
         "api": "openai-completions",
         "models": [
+          {
+            "id": "doubao-lite-128k-240428",
+            "name": "doubao-lite-128k-240428",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 8192
+          },
+          {
+            "id": "doubao-pro-128k-240515",
+            "name": "doubao-pro-128k-240515",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 8192
+          },
+          {
+            "id": "doubao-lite-4k-240328",
+            "name": "doubao-lite-4k-240328",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 4096,
+            "maxTokens": 8192
+          },
+          {
+            "id": "doubao-lite-32k-240428",
+            "name": "doubao-lite-32k-240428",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 32768,
+            "maxTokens": 8192
+          },
+          {
+            "id": "doubao-pro-4k-240515",
+            "name": "doubao-pro-4k-240515",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 4096,
+            "maxTokens": 8192
+          },
+          {
+            "id": "doubao-lite-4k-character-240515",
+            "name": "doubao-lite-4k-character-240515",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 4096,
+            "maxTokens": 8192
+          },
+          {
+            "id": "doubao-embedding-text-240515",
+            "name": "doubao-embedding-text-240515",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 4096,
+            "maxTokens": 8192
+          },
+          {
+            "id": "mistral-7b-instruct-v0.2",
+            "name": "mistral-7b-instruct-v0.2",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 32768,
+            "maxTokens": 8192
+          },
+          {
+            "id": "doubao-pro-4k-character-240515",
+            "name": "doubao-pro-4k-character-240515",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 4096,
+            "maxTokens": 8192
+          },
+          {
+            "id": "doubao-pro-4k-functioncall-240515",
+            "name": "doubao-pro-4k-functioncall-240515",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 4096,
+            "maxTokens": 8192
+          },
+          {
+            "id": "doubao-lite-4k-pretrain-character-240516",
+            "name": "doubao-lite-4k-pretrain-character-240516",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 4096,
+            "maxTokens": 8192
+          },
+          {
+            "id": "doubao-pro-32k-character-240528",
+            "name": "doubao-pro-32k-character-240528",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 32768,
+            "maxTokens": 8192
+          },
+          {
+            "id": "doubao-pro-4k-browsing-240524",
+            "name": "doubao-pro-4k-browsing-240524",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 4096,
+            "maxTokens": 8192
+          },
+          {
+            "id": "doubao-pro-32k-functioncall-240515",
+            "name": "doubao-pro-32k-functioncall-240515",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 32768,
+            "maxTokens": 8192
+          },
+          {
+            "id": "doubao-pro-4k-functioncall-240615",
+            "name": "doubao-pro-4k-functioncall-240615",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 4096,
+            "maxTokens": 8192
+          },
+          {
+            "id": "doubao-pro-32k-browsing-240615",
+            "name": "doubao-pro-32k-browsing-240615",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 32768,
+            "maxTokens": 8192
+          },
+          {
+            "id": "doubao-pro-32k-240615",
+            "name": "doubao-pro-32k-240615",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 32768,
+            "maxTokens": 8192
+          },
+          {
+            "id": "doubao-lite-32k-240628",
+            "name": "doubao-lite-32k-240628",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 32768,
+            "maxTokens": 8192
+          },
+          {
+            "id": "doubao-pro-128k-240628",
+            "name": "doubao-pro-128k-240628",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 8192
+          },
+          {
+            "id": "doubao-embedding-text-240715",
+            "name": "doubao-embedding-text-240715",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 4096,
+            "maxTokens": 8192
+          },
+          {
+            "id": "doubao-pro-4k-character-240728",
+            "name": "doubao-pro-4k-character-240728",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 4096,
+            "maxTokens": 8192
+          },
+          {
+            "id": "doubao-pro-32k-functioncall-240815",
+            "name": "doubao-pro-32k-functioncall-240815",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 32768,
+            "maxTokens": 8192
+          },
+          {
+            "id": "doubao-pro-32k-240828",
+            "name": "doubao-pro-32k-240828",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 32768,
+            "maxTokens": 8192
+          },
+          {
+            "id": "doubao-lite-4k-character-240828",
+            "name": "doubao-lite-4k-character-240828",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 4096,
+            "maxTokens": 8192
+          },
+          {
+            "id": "doubao-pro-32k-character-240828",
+            "name": "doubao-pro-32k-character-240828",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 32768,
+            "maxTokens": 8192
+          },
+          {
+            "id": "doubao-lite-32k-240828",
+            "name": "doubao-lite-32k-240828",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 32768,
+            "maxTokens": 8192
+          },
+          {
+            "id": "doubao-lite-128k-240828",
+            "name": "doubao-lite-128k-240828",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 8192
+          },
+          {
+            "id": "doubao-pro-32k-browsing-240828",
+            "name": "doubao-pro-32k-browsing-240828",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 32768,
+            "maxTokens": 8192
+          },
+          {
+            "id": "doubao-pro-32k-functioncall-preview",
+            "name": "doubao-pro-32k-functioncall-preview",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 32768,
+            "maxTokens": 8192
+          },
+          {
+            "id": "doubao-embedding-large-text-240915",
+            "name": "doubao-embedding-large-text-240915",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 4096,
+            "maxTokens": 8192
+          },
+          {
+            "id": "doubao-lite-32k-character-241015",
+            "name": "doubao-lite-32k-character-241015",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 32768,
+            "maxTokens": 8192
+          },
+          {
+            "id": "doubao-pro-32k-functioncall-241028",
+            "name": "doubao-pro-32k-functioncall-241028",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 32768,
+            "maxTokens": 8192
+          },
+          {
+            "id": "doubao-pro-32k-browsing-241115",
+            "name": "doubao-pro-32k-browsing-241115",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 32768,
+            "maxTokens": 8192
+          },
+          {
+            "id": "doubao-vision-pro-32k-241028",
+            "name": "doubao-vision-pro-32k-241028",
+            "reasoning": false,
+            "input": [
+              "text",
+              "image"
+            ],
+            "contextWindow": 32768,
+            "maxTokens": 8192
+          },
+          {
+            "id": "doubao-vision-lite-32k-241015",
+            "name": "doubao-vision-lite-32k-241015",
+            "reasoning": false,
+            "input": [
+              "text",
+              "image"
+            ],
+            "contextWindow": 32768,
+            "maxTokens": 8192
+          },
+          {
+            "id": "doubao-seaweed-241128",
+            "name": "doubao-seaweed-241128",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 32768,
+            "maxTokens": 8192
+          },
+          {
+            "id": "doubao-pro-256k-241115",
+            "name": "doubao-pro-256k-241115",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 262144,
+            "maxTokens": 8192
+          },
+          {
+            "id": "doubao-pro-32k-character-241215",
+            "name": "doubao-pro-32k-character-241215",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 32768,
+            "maxTokens": 8192
+          },
+          {
+            "id": "doubao-pro-32k-241215",
+            "name": "doubao-pro-32k-241215",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 32768,
+            "maxTokens": 8192
+          },
+          {
+            "id": "doubao-1-5-lite-32k-250115",
+            "name": "doubao-1-5-lite-32k-250115",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 32768,
+            "maxTokens": 8192
+          },
+          {
+            "id": "doubao-1-5-pro-32k-250115",
+            "name": "doubao-1-5-pro-32k-250115",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 32768,
+            "maxTokens": 8192
+          },
+          {
+            "id": "doubao-1-5-vision-pro-32k-250115",
+            "name": "doubao-1-5-vision-pro-32k-250115",
+            "reasoning": false,
+            "input": [
+              "text",
+              "image"
+            ],
+            "contextWindow": 32768,
+            "maxTokens": 8192
+          },
+          {
+            "id": "doubao-embedding-vision-241215",
+            "name": "doubao-embedding-vision-241215",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 4096,
+            "maxTokens": 8192
+          },
+          {
+            "id": "doubao-1-5-pro-256k-250115",
+            "name": "doubao-1-5-pro-256k-250115",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 262144,
+            "maxTokens": 8192
+          },
+          {
+            "id": "deepseek-v3-241226",
+            "name": "deepseek-v3-241226",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 8192
+          },
+          {
+            "id": "deepseek-r1-distill-qwen-7b-250120",
+            "name": "deepseek-r1-distill-qwen-7b-250120",
+            "reasoning": true,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 16384
+          },
+          {
+            "id": "deepseek-r1-distill-qwen-32b-250120",
+            "name": "deepseek-r1-distill-qwen-32b-250120",
+            "reasoning": true,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 16384
+          },
+          {
+            "id": "deepseek-r1-250120",
+            "name": "deepseek-r1-250120",
+            "reasoning": true,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 16384
+          },
+          {
+            "id": "doubao-1-5-pro-32k-character-250228",
+            "name": "doubao-1-5-pro-32k-character-250228",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 32768,
+            "maxTokens": 8192
+          },
+          {
+            "id": "doubao-1.5-vision-lite-250315",
+            "name": "doubao-1.5-vision-lite-250315",
+            "reasoning": false,
+            "input": [
+              "text",
+              "image"
+            ],
+            "contextWindow": 32768,
+            "maxTokens": 8192
+          },
+          {
+            "id": "deepseek-v3-250324",
+            "name": "deepseek-v3-250324",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 8192
+          },
+          {
+            "id": "doubao-1.5-vision-pro-250328",
+            "name": "doubao-1.5-vision-pro-250328",
+            "reasoning": false,
+            "input": [
+              "text",
+              "image"
+            ],
+            "contextWindow": 32768,
+            "maxTokens": 8192
+          },
+          {
+            "id": "doubao-lite-32k-character-250228",
+            "name": "doubao-lite-32k-character-250228",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 32768,
+            "maxTokens": 8192
+          },
+          {
+            "id": "doubao-1.5-ui-tars-250328",
+            "name": "doubao-1.5-ui-tars-250328",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 32768,
+            "maxTokens": 8192
+          },
+          {
+            "id": "doubao-embedding-vision-250328",
+            "name": "doubao-embedding-vision-250328",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 4096,
+            "maxTokens": 8192
+          },
+          {
+            "id": "doubao-1-5-thinking-pro-250415",
+            "name": "doubao-1-5-thinking-pro-250415",
+            "reasoning": true,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 32768,
+            "maxTokens": 16384
+          },
+          {
+            "id": "wan2-1-14b-i2v-250225",
+            "name": "wan2-1-14b-i2v-250225",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 32768,
+            "maxTokens": 8192
+          },
+          {
+            "id": "wan2-1-14b-t2v-250225",
+            "name": "wan2-1-14b-t2v-250225",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 32768,
+            "maxTokens": 8192
+          },
+          {
+            "id": "doubao-1-5-thinking-pro-m-250415",
+            "name": "doubao-1-5-thinking-pro-m-250415",
+            "reasoning": true,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 32768,
+            "maxTokens": 16384
+          },
+          {
+            "id": "doubao-seedance-1-0-lite-i2v-250428",
+            "name": "doubao-seedance-1-0-lite-i2v-250428",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 32768,
+            "maxTokens": 8192
+          },
+          {
+            "id": "doubao-seedance-1-0-lite-t2v-250428",
+            "name": "doubao-seedance-1-0-lite-t2v-250428",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 32768,
+            "maxTokens": 8192
+          },
+          {
+            "id": "doubao-seedream-3-0-t2i-250415",
+            "name": "doubao-seedream-3-0-t2i-250415",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 32768,
+            "maxTokens": 8192
+          },
+          {
+            "id": "wan2-1-14b-flf2v-250417",
+            "name": "wan2-1-14b-flf2v-250417",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 32768,
+            "maxTokens": 8192
+          },
+          {
+            "id": "doubao-1-5-thinking-vision-pro-250428",
+            "name": "doubao-1-5-thinking-vision-pro-250428",
+            "reasoning": true,
+            "input": [
+              "text",
+              "image"
+            ],
+            "contextWindow": 32768,
+            "maxTokens": 16384
+          },
+          {
+            "id": "doubao-1-5-thinking-pro-m-250428",
+            "name": "doubao-1-5-thinking-pro-m-250428",
+            "reasoning": true,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 32768,
+            "maxTokens": 16384
+          },
+          {
+            "id": "doubao-embedding-large-text-250515",
+            "name": "doubao-embedding-large-text-250515",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 4096,
+            "maxTokens": 8192
+          },
+          {
+            "id": "doubao-1-5-ui-tars-250428",
+            "name": "doubao-1-5-ui-tars-250428",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 32768,
+            "maxTokens": 8192
+          },
+          {
+            "id": "deepseek-r1-250528",
+            "name": "deepseek-r1-250528",
+            "reasoning": true,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 16384
+          },
+          {
+            "id": "doubao-seed-1-6-flash-250615",
+            "name": "doubao-seed-1-6-flash-250615",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 32768,
+            "maxTokens": 8192
+          },
+          {
+            "id": "doubao-seed-1-6-250615",
+            "name": "doubao-seed-1-6-250615",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 32768,
+            "maxTokens": 8192
+          },
+          {
+            "id": "doubao-seed-1-6-thinking-250615",
+            "name": "doubao-seed-1-6-thinking-250615",
+            "reasoning": true,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 32768,
+            "maxTokens": 16384
+          },
+          {
+            "id": "doubao-seedance-1-0-pro-250528",
+            "name": "doubao-seedance-1-0-pro-250528",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 32768,
+            "maxTokens": 8192
+          },
+          {
+            "id": "doubao-embedding-vision-250615",
+            "name": "doubao-embedding-vision-250615",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 4096,
+            "maxTokens": 8192
+          },
+          {
+            "id": "doubao-seed-1-6-thinking-250715",
+            "name": "doubao-seed-1-6-thinking-250715",
+            "reasoning": true,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 32768,
+            "maxTokens": 16384
+          },
+          {
+            "id": "doubao-1-5-pro-32k-character-250715",
+            "name": "doubao-1-5-pro-32k-character-250715",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 32768,
+            "maxTokens": 8192
+          },
+          {
+            "id": "doubao-seededit-3-0-i2i-250628",
+            "name": "doubao-seededit-3-0-i2i-250628",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 32768,
+            "maxTokens": 8192
+          },
+          {
+            "id": "doubao-seed-1-6-flash-250715",
+            "name": "doubao-seed-1-6-flash-250715",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 32768,
+            "maxTokens": 8192
+          },
+          {
+            "id": "kimi-k2-250711",
+            "name": "kimi-k2-250711",
+            "reasoning": true,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 262144,
+            "maxTokens": 16384
+          },
+          {
+            "id": "doubao-seed-1-6-vision-250815",
+            "name": "doubao-seed-1-6-vision-250815",
+            "reasoning": false,
+            "input": [
+              "text",
+              "image"
+            ],
+            "contextWindow": 32768,
+            "maxTokens": 8192
+          },
+          {
+            "id": "deepseek-v3-1-250821",
+            "name": "deepseek-v3-1-250821",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 8192
+          },
+          {
+            "id": "doubao-seed-1-6-flash-250828",
+            "name": "doubao-seed-1-6-flash-250828",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 32768,
+            "maxTokens": 8192
+          },
+          {
+            "id": "glm-4-5-air-20250728",
+            "name": "glm-4-5-air-20250728",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen3-8b-20250429",
+            "name": "qwen3-8b-20250429",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 32768,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen3-32b-20250429",
+            "name": "qwen3-32b-20250429",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 32768,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen2-5-72b-20240919",
+            "name": "qwen2-5-72b-20240919",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 32768,
+            "maxTokens": 8192
+          },
+          {
+            "id": "doubao-seedream-4-0-250828",
+            "name": "doubao-seedream-4-0-250828",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 32768,
+            "maxTokens": 8192
+          },
+          {
+            "id": "kimi-k2-250905",
+            "name": "kimi-k2-250905",
+            "reasoning": true,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 262144,
+            "maxTokens": 16384
+          },
+          {
+            "id": "doubao-seed-translation-250915",
+            "name": "doubao-seed-translation-250915",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 32768,
+            "maxTokens": 8192
+          },
+          {
+            "id": "deepseek-v3-1-terminus",
+            "name": "deepseek-v3-1-terminus",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 8192
+          },
+          {
+            "id": "doubao-smart-router-250928",
+            "name": "doubao-smart-router-250928",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 32768,
+            "maxTokens": 8192
+          },
+          {
+            "id": "doubao-seed-1-6-251015",
+            "name": "doubao-seed-1-6-251015",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 32768,
+            "maxTokens": 8192
+          },
+          {
+            "id": "doubao-seedance-1-0-pro-fast-251015",
+            "name": "doubao-seedance-1-0-pro-fast-251015",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 32768,
+            "maxTokens": 8192
+          },
+          {
+            "id": "doubao-seed-1-6-lite-251015",
+            "name": "doubao-seed-1-6-lite-251015",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 32768,
+            "maxTokens": 8192
+          },
+          {
+            "id": "doubao-seed3d-1-0-250928",
+            "name": "doubao-seed3d-1-0-250928",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 32768,
+            "maxTokens": 8192
+          },
+          {
+            "id": "kimi-k2-thinking-251104",
+            "name": "kimi-k2-thinking-251104",
+            "reasoning": true,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 262144,
+            "maxTokens": 16384
+          },
+          {
+            "id": "doubao-seed-code-preview-251028",
+            "name": "doubao-seed-code-preview-251028",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 32768,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen3-0-6b-20250429",
+            "name": "qwen3-0-6b-20250429",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 32768,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen3-14b-20250429",
+            "name": "qwen3-14b-20250429",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 32768,
+            "maxTokens": 8192
+          },
+          {
+            "id": "doubao-seedream-4-5-251128",
+            "name": "doubao-seedream-4-5-251128",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 32768,
+            "maxTokens": 8192
+          },
+          {
+            "id": "doubao-embedding-vision-251215",
+            "name": "doubao-embedding-vision-251215",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 4096,
+            "maxTokens": 8192
+          },
+          {
+            "id": "deepseek-v3-2-251201",
+            "name": "deepseek-v3-2-251201",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 8192
+          },
+          {
+            "id": "doubao-seedance-1-5-pro-251215",
+            "name": "doubao-seedance-1-5-pro-251215",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 32768,
+            "maxTokens": 8192
+          },
+          {
+            "id": "glm-4-7-251222",
+            "name": "glm-4-7-251222",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 8192
+          },
+          {
+            "id": "doubao-seed-1-8-251228",
+            "name": "doubao-seed-1-8-251228",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 32768,
+            "maxTokens": 8192
+          },
+          {
+            "id": "doubao-seed-2-0-lite-260215",
+            "name": "doubao-seed-2-0-lite-260215",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 32768,
+            "maxTokens": 8192
+          },
+          {
+            "id": "doubao-seedance-2-0-260128",
+            "name": "doubao-seedance-2-0-260128",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 32768,
+            "maxTokens": 8192
+          },
+          {
+            "id": "doubao-seedream-5-0-260128",
+            "name": "doubao-seedream-5-0-260128",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 32768,
+            "maxTokens": 8192
+          },
+          {
+            "id": "doubao-seed-2-0-mini-260215",
+            "name": "doubao-seed-2-0-mini-260215",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 32768,
+            "maxTokens": 8192
+          },
+          {
+            "id": "doubao-seed-2-0-pro-260215",
+            "name": "doubao-seed-2-0-pro-260215",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 32768,
+            "maxTokens": 8192
+          },
+          {
+            "id": "doubao-seed-2-0-code-preview-260215",
+            "name": "doubao-seed-2-0-code-preview-260215",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 32768,
+            "maxTokens": 8192
+          }
         ]
       },
-      // 阿里云百炼：华北2（北京）节点
-      "aliyun-beijing": {
+      // 火山方舟 Coding Plan
+      "volcengine-plan": {
+        "baseUrl": "https://ark.cn-beijing.volces.com/api/coding",
+        "apiKey": "",
+        "api": "anthropic-messages",
+        "models": [
+          {
+            "id": "doubao-seed-2.0-code",
+            "name": "doubao-seed-2.0-code"
+          },
+          {
+            "id": "doubao-seed-2.0-pro",
+            "name": "doubao-seed-2.0-pro"
+          },
+          {
+            "id": "ark-code-latest",
+            "name": "ark-code-latest"
+          },
+          {
+            "id": "doubao-seed-code",
+            "name": "doubao-seed-code"
+          },
+          {
+            "id": "glm-4.7",
+            "name": "glm-4.7"
+          },
+          {
+            "id": "deepseek-v3.2",
+            "name": "deepseek-v3.2"
+          },
+          {
+            "id": "kimi-k2-thinking",
+            "name": "kimi-k2-thinking"
+          },
+          {
+            "id": "kimi-k2.5",
+            "name": "kimi-k2.5"
+          }
+        ]
+      },
+      // 阿里云百炼
+      "aliyun": {
         "baseUrl": "https://dashscope.aliyuncs.com/compatible-mode/v1",
         "apiKey": "",
         "api": "openai-completions",
         "models": [
+          {
+            "id": "qwen-deep-research-2025-12-15",
+            "name": "qwen-deep-research-2025-12-15",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 1048576,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen-image-2.0-2026-03-03",
+            "name": "qwen-image-2.0-2026-03-03",
+            "reasoning": false,
+            "input": [
+              "text",
+              "image"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen-image-2.0-pro",
+            "name": "qwen-image-2.0-pro",
+            "reasoning": false,
+            "input": [
+              "text",
+              "image"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen-image-2.0-pro-2026-03-03",
+            "name": "qwen-image-2.0-pro-2026-03-03",
+            "reasoning": false,
+            "input": [
+              "text",
+              "image"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen-image-2.0",
+            "name": "qwen-image-2.0",
+            "reasoning": false,
+            "input": [
+              "text",
+              "image"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen3-asr-flash-2026-02-10",
+            "name": "qwen3-asr-flash-2026-02-10",
+            "reasoning": false,
+            "input": [
+              "audio"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 8192
+          },
+          {
+            "id": "glm-5",
+            "name": "glm-5",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen-flash-character-2026-02-26",
+            "name": "qwen-flash-character-2026-02-26",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 8192
+          },
+          {
+            "id": "MiniMax-M2.5",
+            "name": "MiniMax-M2.5",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen3.5-flash-2026-02-23",
+            "name": "qwen3.5-flash-2026-02-23",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen3.5-flash",
+            "name": "qwen3.5-flash",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen3.5-122b-a10b",
+            "name": "qwen3.5-122b-a10b",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen3.5-35b-a3b",
+            "name": "qwen3.5-35b-a3b",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen3.5-27b",
+            "name": "qwen3.5-27b",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen3-coder-next",
+            "name": "qwen3-coder-next",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen3.5-397b-a17b",
+            "name": "qwen3.5-397b-a17b",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen3.5-plus-2026-02-15",
+            "name": "qwen3.5-plus-2026-02-15",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen3.5-plus",
+            "name": "qwen3.5-plus",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen3-asr-flash-realtime-2026-02-10",
+            "name": "qwen3-asr-flash-realtime-2026-02-10",
+            "reasoning": false,
+            "input": [
+              "audio"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 8192
+          },
+          {
+            "id": "MiniMax/MiniMax-M2.1",
+            "name": "MiniMax/MiniMax-M2.1",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 8192
+          },
+          {
+            "id": "MiniMax/MiniMax-M2.5",
+            "name": "MiniMax/MiniMax-M2.5",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 8192
+          },
+          {
+            "id": "kimi/kimi-k2.5",
+            "name": "kimi/kimi-k2.5",
+            "reasoning": true,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 262144,
+            "maxTokens": 16384
+          },
+          {
+            "id": "qwen3-tts-instruct-flash-2026-01-26",
+            "name": "qwen3-tts-instruct-flash-2026-01-26",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen3-tts-instruct-flash",
+            "name": "qwen3-tts-instruct-flash",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen3-tts-vc-2026-01-22",
+            "name": "qwen3-tts-vc-2026-01-22",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 8192
+          },
+          {
+            "id": "glm-4.7",
+            "name": "glm-4.7",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen3-max",
+            "name": "qwen3-max",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 1048576,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen3-tts-instruct-flash-realtime-2026-01-22",
+            "name": "qwen3-tts-instruct-flash-realtime-2026-01-22",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen3-tts-instruct-flash-realtime",
+            "name": "qwen3-tts-instruct-flash-realtime",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen3-tts-vd-realtime-2026-01-15",
+            "name": "qwen3-tts-vd-realtime-2026-01-15",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 8192
+          },
+          {
+            "id": "kimi-k2.5",
+            "name": "kimi-k2.5",
+            "reasoning": true,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 262144,
+            "maxTokens": 16384
+          },
+          {
+            "id": "tongyi-xiaomi-analysis-flash",
+            "name": "tongyi-xiaomi-analysis-flash",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 8192
+          },
+          {
+            "id": "tongyi-xiaomi-analysis-pro",
+            "name": "tongyi-xiaomi-analysis-pro",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 8192
+          },
+          {
+            "id": "siliconflow/deepseek-v3.2",
+            "name": "siliconflow/deepseek-v3.2",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 8192
+          },
+          {
+            "id": "siliconflow/deepseek-v3.1-terminus",
+            "name": "siliconflow/deepseek-v3.1-terminus",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 8192
+          },
+          {
+            "id": "siliconflow/deepseek-v3-0324",
+            "name": "siliconflow/deepseek-v3-0324",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 8192
+          },
+          {
+            "id": "siliconflow/deepseek-r1-0528",
+            "name": "siliconflow/deepseek-r1-0528",
+            "reasoning": true,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 16384
+          },
+          {
+            "id": "MiniMax-M2.1",
+            "name": "MiniMax-M2.1",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen3-vl-flash-2026-01-22",
+            "name": "qwen3-vl-flash-2026-01-22",
+            "reasoning": false,
+            "input": [
+              "text",
+              "image"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen3-max-2026-01-23",
+            "name": "qwen3-max-2026-01-23",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 1048576,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen3-tts-vc-realtime-2026-01-15",
+            "name": "qwen3-tts-vc-realtime-2026-01-15",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen-image-edit-max-2026-01-16",
+            "name": "qwen-image-edit-max-2026-01-16",
+            "reasoning": false,
+            "input": [
+              "text",
+              "image"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen-image-edit-max",
+            "name": "qwen-image-edit-max",
+            "reasoning": false,
+            "input": [
+              "text",
+              "image"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen-image-plus-2026-01-09",
+            "name": "qwen-image-plus-2026-01-09",
+            "reasoning": false,
+            "input": [
+              "text",
+              "image"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen-flash-character",
+            "name": "qwen-flash-character",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen-image-max-2025-12-30",
+            "name": "qwen-image-max-2025-12-30",
+            "reasoning": false,
+            "input": [
+              "text",
+              "image"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen-image-max",
+            "name": "qwen-image-max",
+            "reasoning": false,
+            "input": [
+              "text",
+              "image"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen-flash",
+            "name": "qwen-flash",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 8192
+          },
+          {
+            "id": "z-image-turbo",
+            "name": "z-image-turbo",
+            "reasoning": false,
+            "input": [
+              "text",
+              "image"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen3-vl-plus-2025-12-19",
+            "name": "qwen3-vl-plus-2025-12-19",
+            "reasoning": false,
+            "input": [
+              "text",
+              "image"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen3-tts-vd-realtime-2025-12-16",
+            "name": "qwen3-tts-vd-realtime-2025-12-16",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen-image-edit-plus-2025-12-15",
+            "name": "qwen-image-edit-plus-2025-12-15",
+            "reasoning": false,
+            "input": [
+              "text",
+              "image"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 8192
+          },
+          {
+            "id": "deepseek-v3.2",
+            "name": "deepseek-v3.2",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen3-omni-flash-2025-12-01",
+            "name": "qwen3-omni-flash-2025-12-01",
+            "reasoning": false,
+            "input": [
+              "text",
+              "image",
+              "audio",
+              "video"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen3-omni-flash-realtime-2025-12-01",
+            "name": "qwen3-omni-flash-realtime-2025-12-01",
+            "reasoning": false,
+            "input": [
+              "text",
+              "image",
+              "audio",
+              "video"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen3-omni-flash-realtime-2025-12-01",
+            "name": "qwen3-omni-flash-realtime-2025-12-01",
+            "reasoning": false,
+            "input": [
+              "text",
+              "image",
+              "audio",
+              "video"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen3-livetranslate-flash-2025-12-01",
+            "name": "qwen3-livetranslate-flash-2025-12-01",
+            "reasoning": false,
+            "input": [
+              "text",
+              "audio"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen3-livetranslate-flash",
+            "name": "qwen3-livetranslate-flash",
+            "reasoning": false,
+            "input": [
+              "text",
+              "audio"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen-plus-2025-12-01",
+            "name": "qwen-plus-2025-12-01",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen3-tts-vc-realtime-2025-11-27",
+            "name": "qwen3-tts-vc-realtime-2025-11-27",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen3-tts-flash-2025-11-27",
+            "name": "qwen3-tts-flash-2025-11-27",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen3-tts-flash-realtime-2025-11-27",
+            "name": "qwen3-tts-flash-realtime-2025-11-27",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen-plus-2025-11-05",
+            "name": "qwen-plus-2025-11-05",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen-mt-lite",
+            "name": "qwen-mt-lite",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen-vl-ocr-2025-11-20",
+            "name": "qwen-vl-ocr-2025-11-20",
+            "reasoning": false,
+            "input": [
+              "text",
+              "image"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 8192
+          },
+          {
+            "id": "kimi-k2-thinking",
+            "name": "kimi-k2-thinking",
+            "reasoning": true,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 262144,
+            "maxTokens": 16384
+          },
+          {
+            "id": "qwen-mt-flash",
+            "name": "qwen-mt-flash",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 8192
+          },
+          {
+            "id": "gui-plus",
+            "name": "gui-plus",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen-image-edit-plus-2025-10-30",
+            "name": "qwen-image-edit-plus-2025-10-30",
+            "reasoning": false,
+            "input": [
+              "text",
+              "image"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen-image-edit-plus",
+            "name": "qwen-image-edit-plus",
+            "reasoning": false,
+            "input": [
+              "text",
+              "image"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen-deep-search-planning",
+            "name": "qwen-deep-search-planning",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 1048576,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen3-asr-flash-realtime-2025-10-27",
+            "name": "qwen3-asr-flash-realtime-2025-10-27",
+            "reasoning": false,
+            "input": [
+              "audio"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen3-asr-flash-realtime",
+            "name": "qwen3-asr-flash-realtime",
+            "reasoning": false,
+            "input": [
+              "audio"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen3-vl-flash",
+            "name": "qwen3-vl-flash",
+            "reasoning": false,
+            "input": [
+              "text",
+              "image"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen3-vl-flash-2025-10-15",
+            "name": "qwen3-vl-flash-2025-10-15",
+            "reasoning": false,
+            "input": [
+              "text",
+              "image"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen3-tts-flash",
+            "name": "qwen3-tts-flash",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen3-tts-flash-2025-09-18",
+            "name": "qwen3-tts-flash-2025-09-18",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen3-tts-flash-realtime-2025-09-18",
+            "name": "qwen3-tts-flash-realtime-2025-09-18",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen3-tts-flash-realtime",
+            "name": "qwen3-tts-flash-realtime",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen3-omni-flash-realtime",
+            "name": "qwen3-omni-flash-realtime",
+            "reasoning": false,
+            "input": [
+              "text",
+              "image",
+              "audio",
+              "video"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen3-omni-flash",
+            "name": "qwen3-omni-flash",
+            "reasoning": false,
+            "input": [
+              "text",
+              "image",
+              "audio",
+              "video"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen3-omni-flash-2025-09-15",
+            "name": "qwen3-omni-flash-2025-09-15",
+            "reasoning": false,
+            "input": [
+              "text",
+              "image",
+              "audio",
+              "video"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen3-omni-flash-realtime-2025-09-15",
+            "name": "qwen3-omni-flash-realtime-2025-09-15",
+            "reasoning": false,
+            "input": [
+              "text",
+              "image",
+              "audio",
+              "video"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen3-s2s-flash-realtime-2025-09-22",
+            "name": "qwen3-s2s-flash-realtime-2025-09-22",
+            "reasoning": false,
+            "input": [
+              "text",
+              "audio"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen3-livetranslate-flash-realtime",
+            "name": "qwen3-livetranslate-flash-realtime",
+            "reasoning": false,
+            "input": [
+              "text",
+              "audio"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen3-livetranslate-flash-realtime-2025-09-22",
+            "name": "qwen3-livetranslate-flash-realtime-2025-09-22",
+            "reasoning": false,
+            "input": [
+              "text",
+              "audio"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen2.5-14b-instruct-1m",
+            "name": "qwen2.5-14b-instruct-1m",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 1048576,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen2.5-7b-instruct-1m",
+            "name": "qwen2.5-7b-instruct-1m",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 1048576,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen-max-2025-01-25",
+            "name": "qwen-max-2025-01-25",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 1048576,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen-turbo-2024-11-01",
+            "name": "qwen-turbo-2024-11-01",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 32768,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen-plus-2025-01-25",
+            "name": "qwen-plus-2025-01-25",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwq-plus-2025-03-05",
+            "name": "qwq-plus-2025-03-05",
+            "reasoning": true,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 16384
+          },
+          {
+            "id": "qwq-plus",
+            "name": "qwq-plus",
+            "reasoning": true,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 16384
+          },
+          {
+            "id": "qwen2.5-vl-32b-instruct",
+            "name": "qwen2.5-vl-32b-instruct",
+            "reasoning": false,
+            "input": [
+              "text",
+              "image"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qvq-max",
+            "name": "qvq-max",
+            "reasoning": true,
+            "input": [
+              "text",
+              "image"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 16384
+          },
+          {
+            "id": "qwen-omni-turbo",
+            "name": "qwen-omni-turbo",
+            "reasoning": false,
+            "input": [
+              "text",
+              "image",
+              "audio",
+              "video"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen-turbo-2025-04-28",
+            "name": "qwen-turbo-2025-04-28",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 32768,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen-plus-2025-04-28",
+            "name": "qwen-plus-2025-04-28",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen-vl-max-2025-04-08",
+            "name": "qwen-vl-max-2025-04-08",
+            "reasoning": false,
+            "input": [
+              "text",
+              "image"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen-vl-plus-2025-01-25",
+            "name": "qwen-vl-plus-2025-01-25",
+            "reasoning": false,
+            "input": [
+              "text",
+              "image"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen-vl-max-latest",
+            "name": "qwen-vl-max-latest",
+            "reasoning": false,
+            "input": [
+              "text",
+              "image"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen-vl-plus-2025-05-07",
+            "name": "qwen-vl-plus-2025-05-07",
+            "reasoning": false,
+            "input": [
+              "text",
+              "image"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen-turbo-2025-07-15",
+            "name": "qwen-turbo-2025-07-15",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 32768,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen3-235b-a22b-instruct-2507",
+            "name": "qwen3-235b-a22b-instruct-2507",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen3-235b-a22b-thinking-2507",
+            "name": "qwen3-235b-a22b-thinking-2507",
+            "reasoning": true,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 16384
+          },
+          {
+            "id": "qwen3-30b-a3b-thinking-2507",
+            "name": "qwen3-30b-a3b-thinking-2507",
+            "reasoning": true,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 16384
+          },
+          {
+            "id": "qwen3-30b-a3b-instruct-2507",
+            "name": "qwen3-30b-a3b-instruct-2507",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen3-coder-flash",
+            "name": "qwen3-coder-flash",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen3-coder-plus-2025-09-23",
+            "name": "qwen3-coder-plus-2025-09-23",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen3-max-2025-09-23",
+            "name": "qwen3-max-2025-09-23",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 1048576,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen3-vl-plus",
+            "name": "qwen3-vl-plus",
+            "reasoning": false,
+            "input": [
+              "text",
+              "image"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen3-vl-plus-2025-09-23",
+            "name": "qwen3-vl-plus-2025-09-23",
+            "reasoning": false,
+            "input": [
+              "text",
+              "image"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen-plus-2025-09-11",
+            "name": "qwen-plus-2025-09-11",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen3-next-80b-a3b-thinking",
+            "name": "qwen3-next-80b-a3b-thinking",
+            "reasoning": true,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 16384
+          },
+          {
+            "id": "qwen3-next-80b-a3b-instruct",
+            "name": "qwen3-next-80b-a3b-instruct",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen3-max-preview",
+            "name": "qwen3-max-preview",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 1048576,
+            "maxTokens": 8192
+          },
+          {
+            "id": "deepseek-v3.1",
+            "name": "deepseek-v3.1",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen-vl-plus-2025-08-15",
+            "name": "qwen-vl-plus-2025-08-15",
+            "reasoning": false,
+            "input": [
+              "text",
+              "image"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen3-coder-plus",
+            "name": "qwen3-coder-plus",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen3-coder-plus-2025-07-22",
+            "name": "qwen3-coder-plus-2025-07-22",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen-plus-2025-07-14",
+            "name": "qwen-plus-2025-07-14",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen3-coder-480b-a35b-instruct",
+            "name": "qwen3-coder-480b-a35b-instruct",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen-mt-turbo",
+            "name": "qwen-mt-turbo",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen-mt-plus",
+            "name": "qwen-mt-plus",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen-tts-2025-05-22",
+            "name": "qwen-tts-2025-05-22",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qvq-plus",
+            "name": "qvq-plus",
+            "reasoning": true,
+            "input": [
+              "text",
+              "image"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 16384
+          },
+          {
+            "id": "qvq-plus-2025-05-15",
+            "name": "qvq-plus-2025-05-15",
+            "reasoning": true,
+            "input": [
+              "text",
+              "image"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 16384
+          },
+          {
+            "id": "qvq-max-2025-05-15",
+            "name": "qvq-max-2025-05-15",
+            "reasoning": true,
+            "input": [
+              "text",
+              "image"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 16384
+          },
+          {
+            "id": "qwen3-4b",
+            "name": "qwen3-4b",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen3-32b",
+            "name": "qwen3-32b",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen3-30b-a3b",
+            "name": "qwen3-30b-a3b",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen3-235b-a22b",
+            "name": "qwen3-235b-a22b",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen3-14b",
+            "name": "qwen3-14b",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen3-1.7b",
+            "name": "qwen3-1.7b",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen3-0.6b",
+            "name": "qwen3-0.6b",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen3-8b",
+            "name": "qwen3-8b",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen-vl-max-2025-04-02",
+            "name": "qwen-vl-max-2025-04-02",
+            "reasoning": false,
+            "input": [
+              "text",
+              "image"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 8192
+          },
+          {
+            "id": "deepseek-v3",
+            "name": "deepseek-v3",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 8192
+          },
+          {
+            "id": "deepseek-r1-distill-llama-70b",
+            "name": "deepseek-r1-distill-llama-70b",
+            "reasoning": true,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 16384
+          },
+          {
+            "id": "deepseek-r1-distill-qwen-32b",
+            "name": "deepseek-r1-distill-qwen-32b",
+            "reasoning": true,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 16384
+          },
+          {
+            "id": "deepseek-r1-distill-qwen-14b",
+            "name": "deepseek-r1-distill-qwen-14b",
+            "reasoning": true,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 16384
+          },
+          {
+            "id": "deepseek-r1-distill-llama-8b",
+            "name": "deepseek-r1-distill-llama-8b",
+            "reasoning": true,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 16384
+          },
+          {
+            "id": "deepseek-r1-distill-qwen-1.5b",
+            "name": "deepseek-r1-distill-qwen-1.5b",
+            "reasoning": true,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 16384
+          },
+          {
+            "id": "deepseek-r1-distill-qwen-7b",
+            "name": "deepseek-r1-distill-qwen-7b",
+            "reasoning": true,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 16384
+          },
+          {
+            "id": "deepseek-r1",
+            "name": "deepseek-r1",
+            "reasoning": true,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 16384
+          },
+          {
+            "id": "qwen1.5-7b-chat",
+            "name": "qwen1.5-7b-chat",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 32768,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen-vl-ocr-latest",
+            "name": "qwen-vl-ocr-latest",
+            "reasoning": false,
+            "input": [
+              "text",
+              "image"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen-vl-ocr",
+            "name": "qwen-vl-ocr",
+            "reasoning": false,
+            "input": [
+              "text",
+              "image"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen-coder-plus-1106",
+            "name": "qwen-coder-plus-1106",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen-coder-plus",
+            "name": "qwen-coder-plus",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen-coder-plus-latest",
+            "name": "qwen-coder-plus-latest",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen2.5-coder-3b-instruct",
+            "name": "qwen2.5-coder-3b-instruct",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 32768,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen2.5-coder-0.5b-instruct",
+            "name": "qwen2.5-coder-0.5b-instruct",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 32768,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen2.5-coder-14b-instruct",
+            "name": "qwen2.5-coder-14b-instruct",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 32768,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen2.5-coder-32b-instruct",
+            "name": "qwen2.5-coder-32b-instruct",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 32768,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen2.5-7b-instruct",
+            "name": "qwen2.5-7b-instruct",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 32768,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen-max-latest",
+            "name": "qwen-max-latest",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 1048576,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen-turbo-0919",
+            "name": "qwen-turbo-0919",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 32768,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen-math-turbo-0919",
+            "name": "qwen-math-turbo-0919",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 32768,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen-coder-turbo-latest",
+            "name": "qwen-coder-turbo-latest",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 32768,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen2.5-math-72b-instruct",
+            "name": "qwen2.5-math-72b-instruct",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 32768,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen2.5-14b-instruct",
+            "name": "qwen2.5-14b-instruct",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 32768,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen2.5-0.5b-instruct",
+            "name": "qwen2.5-0.5b-instruct",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 32768,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen-math-plus",
+            "name": "qwen-math-plus",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen-max-0919",
+            "name": "qwen-max-0919",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 1048576,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen-math-turbo-latest",
+            "name": "qwen-math-turbo-latest",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 32768,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen-math-turbo",
+            "name": "qwen-math-turbo",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 32768,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen-math-plus-latest",
+            "name": "qwen-math-plus-latest",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen-math-plus-0919",
+            "name": "qwen-math-plus-0919",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen-coder-turbo-0919",
+            "name": "qwen-coder-turbo-0919",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 32768,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen-coder-turbo",
+            "name": "qwen-coder-turbo",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 32768,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen2.5-math-7b-instruct",
+            "name": "qwen2.5-math-7b-instruct",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 32768,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen2.5-coder-7b-instruct",
+            "name": "qwen2.5-coder-7b-instruct",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 32768,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen2.5-72b-instruct",
+            "name": "qwen2.5-72b-instruct",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 32768,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen2.5-32b-instruct",
+            "name": "qwen2.5-32b-instruct",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 32768,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen2.5-math-1.5b-instruct",
+            "name": "qwen2.5-math-1.5b-instruct",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 32768,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen2.5-1.5b-instruct",
+            "name": "qwen2.5-1.5b-instruct",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 32768,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen-turbo-latest",
+            "name": "qwen-turbo-latest",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 32768,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen-plus-latest",
+            "name": "qwen-plus-latest",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen2.5-3b-instruct",
+            "name": "qwen2.5-3b-instruct",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 32768,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen2-0.5b-instruct",
+            "name": "qwen2-0.5b-instruct",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 32768,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen2-7b-instruct",
+            "name": "qwen2-7b-instruct",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 32768,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen2-57b-a14b-instruct",
+            "name": "qwen2-57b-a14b-instruct",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 32768,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen2-1.5b-instruct",
+            "name": "qwen2-1.5b-instruct",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 32768,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen-long",
+            "name": "qwen-long",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 1048576,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen-vl-max",
+            "name": "qwen-vl-max",
+            "reasoning": false,
+            "input": [
+              "text",
+              "image"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen-vl-plus",
+            "name": "qwen-vl-plus",
+            "reasoning": false,
+            "input": [
+              "text",
+              "image"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen-max-0428",
+            "name": "qwen-max-0428",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 1048576,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen1.5-110b-chat",
+            "name": "qwen1.5-110b-chat",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 32768,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen-1.8b-chat",
+            "name": "qwen-1.8b-chat",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 32768,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen-1.8b-longcontext-chat",
+            "name": "qwen-1.8b-longcontext-chat",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 1048576,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen-7b-chat",
+            "name": "qwen-7b-chat",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 32768,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen-14b-chat",
+            "name": "qwen-14b-chat",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 32768,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen-72b-chat",
+            "name": "qwen-72b-chat",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 32768,
+            "maxTokens": 8192
+          },
+          {
+            "id": "codeqwen1.5-7b-chat",
+            "name": "codeqwen1.5-7b-chat",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 32768,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen1.5-0.5b-chat",
+            "name": "qwen1.5-0.5b-chat",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 32768,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen1.5-14b-chat",
+            "name": "qwen1.5-14b-chat",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 32768,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen-max-longcontext",
+            "name": "qwen-max-longcontext",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 1048576,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen1.5-72b-chat",
+            "name": "qwen1.5-72b-chat",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 32768,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen-max-1201",
+            "name": "qwen-max-1201",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 1048576,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen1.5-1.8b-chat",
+            "name": "qwen1.5-1.8b-chat",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 32768,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen1.5-32b-chat",
+            "name": "qwen1.5-32b-chat",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 32768,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen-turbo",
+            "name": "qwen-turbo",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 32768,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen-max-0107",
+            "name": "qwen-max-0107",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 1048576,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen-max",
+            "name": "qwen-max",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 1048576,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen-plus",
+            "name": "qwen-plus",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 8192
+          }
         ]
       },
-      //阿里云百炼： 新加坡节点
-      "aliyun-singapore": {
-        "baseUrl": "https://dashscope-intl.aliyuncs.com/compatible-mode/v1",
+      // 阿里云百炼 Coding Plan
+      "aliyun-plan": {
+        "baseUrl": "https://coding.dashscope.aliyuncs.com/v1",
         "apiKey": "",
         "api": "openai-completions",
         "models": [
-        ]
-      },
-      // 阿里云百炼：美国（弗吉尼亚）节点
-      "aliyun-us": {
-        "baseUrl": "https://dashscope-us.aliyuncs.com/compatible-mode/v1",
-        "apiKey": "",
-        "api": "openai-completions",
-        "models": [
+          {
+            "id": "qwen3.5-plus",
+            "name": "qwen3.5-plus"
+          },
+          {
+            "id": "qwen3-coder-plus",
+            "name": "qwen3-coder-plus"
+          },
+          {
+            "id": "qwen3-max-2026-01-23",
+            "name": "qwen3-max-2026-01-23"
+          },
+          {
+            "id": "kimi-k2.5",
+            "name": "kimi-k2.5"
+          },
+          {
+            "id": "glm-5",
+            "name": "glm-5"
+          },
+          {
+            "id": "MiniMax-M2.5",
+            "name": "MiniMax-M2.5"
+          },
+          {
+            "id": "glm-4.7",
+            "name": "glm-4.7"
+          }
         ]
       },
       // MiniMax
@@ -48,15 +3828,305 @@
         "apiKey": "",
         "api": "anthropic-messages",
         "models": [
+          {
+            "id": "MiniMax-M1",
+            "name": "MiniMax-M1",
+            "reasoning": true,
+            "groupID": "",
+            "contextWindow": 1000192,
+            "maxTokens": 16384
+          },
+          {
+            "id": "MiniMax-Text-01",
+            "name": "MiniMax-Text-01",
+            "reasoning": true,
+            "groupID": "",
+            "contextWindow": 1000192,
+            "maxTokens": 16384
+          }
         ]
       },
-      //Moonshot AI (Kimi) 国内端点
+      // MiniMax Coding Plan
+      "minimax-plan": {
+        "baseUrl": "https://api.minimaxi.com/anthropic",
+        "apiKey": "",
+        "api": "anthropic-messages",
+        "models": [
+          {
+            "id": "MiniMax-M2.7",
+            "name": "MiniMax-M2.7"
+          },
+          {
+            "id": "MiniMax-M2.5",
+            "name": "MiniMax-M2.5"
+          },
+          {
+            "id": "MiniMax-M2.5-highspeed",
+            "name": "MiniMax-M2.5-highspeed"
+          },
+          {
+            "id": "MiniMax-M2.5-Lightning",
+            "name": "MiniMax-M2.5-Lightning"
+          },
+          {
+            "id": "MiniMax-M2.1",
+            "name": "MiniMax-M2.1"
+          },
+          {
+            "id": "MiniMax-M2.1-lightning",
+            "name": "MiniMax-M2.1-lightning"
+          },
+          {
+            "id": "MiniMax-M2",
+            "name": "MiniMax-M2"
+          }
+        ]
+      },
+      //Moonshot AI (Kimi)
       "moonshot": {
         "baseUrl": "https://api.moonshot.cn/v1",
         "apiKey": "",
         "api": "openai-completions",
         "models": [
-
+          {
+            "id": "kimi-k2.5",
+            "name": "Kimi-K2.5",
+            "reasoning": true,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 262144,
+            "maxTokens": 8192
+          },
+          {
+            "id": "kimi-k2-0905-preview",
+            "name": "Kimi-k2-0905-preview",
+            "reasoning": true,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 262144,
+            "maxTokens": 8192
+          },
+          {
+            "id": "kimi-k2-0711-preview",
+            "name": "Kimi-k2-0711-preview",
+            "reasoning": true,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 262144,
+            "maxTokens": 8192
+          },
+          {
+            "id": "kimi-k2-thinking",
+            "name": "kimi-k2-thinking",
+            "reasoning": true,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 262144,
+            "maxTokens": 8192
+          },
+          {
+            "id": "kimi-k2-thinking-turbo",
+            "name": "kimi-k2-thinking-turbo",
+            "reasoning": true,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 262144,
+            "maxTokens": 8192
+          },
+          {
+            "id": "moonshot-v1-auto",
+            "name": "moonshot-v1-auto",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 8192
+          },
+          {
+            "id": "moonshot-v1-8k",
+            "name": "moonshot-v1-8k",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 8192
+          },
+          {
+            "id": "moonshot-v1-32k",
+            "name": "moonshot-v1-32k",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 8192
+          },
+          {
+            "id": "moonshot-v1-128k",
+            "name": "moonshot-v1-128k",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 8192
+          },
+          {
+            "id": "moonshot-v1-8k-vision-preview",
+            "name": "moonshot-v1-8k-vision-preview",
+            "reasoning": false,
+            "input": [
+              "text",
+              "image"
+            ],
+            "contextWindow": 262144,
+            "maxTokens": 8192
+          },
+          {
+            "id": "moonshot-v1-32k-vision-preview",
+            "name": "moonshot-v1-32k-vision-preview",
+            "reasoning": false,
+            "input": [
+              "text",
+              "image"
+            ],
+            "contextWindow": 262144,
+            "maxTokens": 8192
+          },
+          {
+            "id": "moonshot-v1-128k-vision-preview",
+            "name": "moonshot-v1-128k-vision-preview",
+            "reasoning": false,
+            "input": [
+              "text",
+              "image"
+            ],
+            "contextWindow": 262144,
+            "maxTokens": 8192
+          }
+        ]
+      },
+      // Kimi(Moonshot) Coding Plan
+      "moonshot-plan": {
+        "baseUrl": "https://api.kimi.com/coding/v1",
+        "apiKey": "",
+        "api": "anthropic-messages",
+        "models": [
+          {
+            "id": "kimi-k2.5",
+            "name": "kimi-k2.5"
+          }
+        ]
+      },
+      // 智谱
+      "zai": {
+        "baseUrl": "https://open.bigmodel.cn/api/paas/v4",
+        "apiKey": "",
+        "api": "openai-completions",
+        "models": [
+          {
+            "id": "glm-5",
+            "name": "GLM-5",
+            "reasoning": true,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 204800,
+            "maxTokens": 131072
+          },
+          {
+            "id": "glm-4.7",
+            "name": "GLM-4.7",
+            "reasoning": true,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 204800,
+            "maxTokens": 131072
+          },
+          {
+            "id": "glm-4.7-flash",
+            "name": "GLM-4.7 Flash",
+            "reasoning": true,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 204800,
+            "maxTokens": 131072
+          },
+          {
+            "id": "glm-4.7-flashx",
+            "name": "GLM-4.7 FlashX",
+            "reasoning": true,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 204800,
+            "maxTokens": 131072
+          }
+        ]
+      },
+      // 智谱 Coding Plan
+      "zai-plan": {
+        "baseUrl": "https://open.bigmodel.cn/api/anthropic",
+        "apiKey": "",
+        "api": "anthropic-messages",
+        "models": [
+          {
+            "id": "GLM-5-Turbo",
+            "name": "GLM-5-Turbo"
+          },
+          {
+            "id": "glm-5",
+            "name": "glm-5"
+          },
+          {
+            "id": "glm-4.7",
+            "name": "glm-4.7"
+          },
+          {
+            "id": "glm-4.6",
+            "name": "glm-4.6"
+          },
+          {
+            "id": "glm-4.5-air",
+            "name": "glm-4.5-air"
+          },
+          {
+            "id": "glm-4.5",
+            "name": "glm-4.5"
+          }
         ]
       },
       // DeepSeek
@@ -65,6 +4135,50 @@
         "apiKey": "",
         "api": "openai-completions",
         "models": [
+          {
+            "id": "deepseek-chat",
+            "name": "deepseek-chat",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 8192
+          },
+          {
+            "id": "deepseek-reasoner",
+            "name": "deepseek-reasoner",
+            "reasoning": true,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 65536
+          }
+        ]
+      },
+      // 百度千帆 Coding plan
+      "qianfan-plan": {
+        "baseUrl": "https://qianfan.baidubce.com/anthropic/coding",
+        "apiKey": "",
+        "api": "anthropic-messages",
+        "models": [
+          {
+            "id": "kimi-k2.5",
+            "name": "kimi-k2.5"
+          },
+          {
+            "id": "deepseek-v3.2",
+            "name": "deepseek-v3.2"
+          },
+          {
+            "id": "glm-5",
+            "name": "glm-5"
+          },
+          {
+            "id": "minimax-m2.5",
+            "name": "minimax-m2.5"
+          }
         ]
       },
       // 小米 MiMo
@@ -76,4 +4190,5 @@
         ]
       }
     }
-  },
+  }
+}
