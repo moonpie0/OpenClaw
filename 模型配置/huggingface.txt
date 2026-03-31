@@ -1,0 +1,4 @@
+deepseek-ai/DeepSeek-R1
+deepseek-ai/DeepSeek-V3.1
+meta-llama/Llama-3.3-70B-Instruct-Turbo
+openai/gpt-oss-120b

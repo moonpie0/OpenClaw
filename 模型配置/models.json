@@ -1616,7 +1616,7 @@
       },
       // 火山方舟 Coding Plan
       "volcengine-plan": {
-        "baseUrl": "https://ark.cn-beijing.volces.com/api/coding",
+        "baseUrl": "https://ark.cn-beijing.volces.com/api/coding/v3",
         "apiKey": "",
         "api": "anthropic-messages",
         "models": [
@@ -1656,7 +1656,10 @@
       },
       // 阿里云百炼
       "aliyun": {
-        "baseUrl": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+        "baseUrl": {
+          "cn": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+          "global": "https://dashscope-intl.aliyuncs.com/compatible-mode/v1"
+        },
         "apiKey": "",
         "api": "openai-completions",
         "models": [
@@ -3788,7 +3791,10 @@
       },
       // 阿里云百炼 Coding Plan
       "aliyun-plan": {
-        "baseUrl": "https://coding.dashscope.aliyuncs.com/v1",
+        "baseUrl": {
+          "cn": "https://coding.dashscope.aliyuncs.com/v1",
+          "global": "https://coding-intl.dashscope.aliyuncs.com/v1"
+        },
         "apiKey": "",
         "api": "openai-completions",
         "models": [
@@ -4027,10 +4033,17 @@
       },
       // 智谱
       "zai": {
-        "baseUrl": "https://open.bigmodel.cn/api/paas/v4",
+        "baseUrl": {
+          "cn": "https://open.bigmodel.cn/api/paas/v4",
+          "global": "https://api.z.ai/api/paas/v4",
+        },
         "apiKey": "",
         "api": "openai-completions",
         "models": [
+          {
+            "id": "GLM-5-Turbo",
+            "name": "GLM-5-Turbo"
+          },
           {
             "id": "glm-5",
             "name": "GLM-5",
@@ -4094,14 +4107,29 @@
             },
             "contextWindow": 204800,
             "maxTokens": 131072
+          },
+          {
+            "id": "glm-4.6",
+            "name": "glm-4.6"
+          },
+          {
+            "id": "glm-4.5-air",
+            "name": "glm-4.5-air"
+          },
+          {
+            "id": "glm-4.5",
+            "name": "glm-4.5"
           }
         ]
       },
       // 智谱 Coding Plan
       "zai-plan": {
-        "baseUrl": "https://open.bigmodel.cn/api/anthropic",
+        "baseUrl": {
+          "cn": "https://open.bigmodel.cn/api/coding/paas/v4",
+          "global": "https://api.z.ai/api/coding/paas/v4",
+        },
         "apiKey": "",
-        "api": "anthropic-messages",
+        "api": "openai-completions",
         "models": [
           {
             "id": "GLM-5-Turbo",
@@ -4109,11 +4137,67 @@
           },
           {
             "id": "glm-5",
-            "name": "glm-5"
+            "name": "GLM-5",
+            "reasoning": true,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 204800,
+            "maxTokens": 131072
           },
           {
             "id": "glm-4.7",
-            "name": "glm-4.7"
+            "name": "GLM-4.7",
+            "reasoning": true,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 204800,
+            "maxTokens": 131072
+          },
+          {
+            "id": "glm-4.7-flash",
+            "name": "GLM-4.7 Flash",
+            "reasoning": true,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 204800,
+            "maxTokens": 131072
+          },
+          {
+            "id": "glm-4.7-flashx",
+            "name": "GLM-4.7 FlashX",
+            "reasoning": true,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 204800,
+            "maxTokens": 131072
           },
           {
             "id": "glm-4.6",
@@ -4187,6 +4271,57 @@
         "apiKey": "",
         "api": "anthropic-messages",
         "models": [
+          {
+            id: "mimo-v2-flash",
+            name: "Xiaomi MiMo V2 Flash",
+            reasoning: false,
+            input: ["text"],
+            cost: { input: 0, output: 0, cacheRead: 0, cacheWrite: 0 },
+            contextWindow: 262144,
+            maxTokens: 8192,
+          },
+          {
+            id: "mimo-v2-pro",
+            name: "Xiaomi MiMo V2 Pro",
+            reasoning: true,
+            input: ["text"],
+            cost: { input: 0, output: 0, cacheRead: 0, cacheWrite: 0 },
+            contextWindow: 1048576,
+            maxTokens: 32000,
+          },
+          {
+            id: "mimo-v2-omni",
+            name: "Xiaomi MiMo V2 Omni",
+            reasoning: true,
+            input: ["text", "image"],
+            cost: { input: 0, output: 0, cacheRead: 0, cacheWrite: 0 },
+            contextWindow: 262144,
+            maxTokens: 32000,
+          }
+        ]
+      },
+      // ollama
+      "ollama": {
+        "baseUrl": "http://127.0.0.1:11434/v1",
+        "apiKey": "",
+        "api": "openai-completions",
+        "models": [
+          {
+            "id": "",
+            "name": "",
+          }
+        ]
+      },
+      // vllm
+      "vllm":  {
+        "baseUrl": "http://127.0.0.1:8000/v1",
+        "apiKey": "",
+        "api": "openai-completions",
+        "models": [
+          {
+            "id": "",
+            "name": "",
+          }
         ]
       }
     }
